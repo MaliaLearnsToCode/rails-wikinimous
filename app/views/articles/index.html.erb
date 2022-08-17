@@ -1,0 +1,13 @@
+
+<div id="banner" class="jumbotron d-flex justify-content-between m-20">
+  <h1 class="pl-20"><%= link_to 'Wikinimous', articles_path, class:"text-decoration-none" %></h1>
+  <%= link_to "New article", new_article_path, class:"text-decoration-none p-10" %>
+</div>
+<div class="container w-50">
+  <ul class="list-group">
+    <% @articles.each do |article| %>
+      <li><%= link_to article.title, article_path(article), class:"text-decoration-none bold" %></li>
+      <li><%= article.content %></li>
+    <% end %>
+  </ul>
+</div>

@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+#banner {
+  background-color: rgb(239, 238, 244);
+  color: rgb(90, 87, 87);
+  align-items: center;
+  font-family: Lucida Sans;
+  margin: 15px, 0px;
+  padding: 15px, 0px;
+  border: rgb(182, 177, 177);
+}
+
+h1 {
+  padding: 20px;
+  font-size: x-large;
+  align-items: center;
+}
+
+#banner a {
+  color: rgb(90, 87, 87);
+  font-family: Lucida Sans;
+  font-size: large;
+  padding-right: 20px;
+}
